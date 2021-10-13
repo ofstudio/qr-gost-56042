@@ -1,7 +1,7 @@
 // Copyright 2021 Oleg Fomin, ofstudio@gmail.com
 
-// Package qrGost генерирует QR-код платежа по банковским реквизитам
-// по ГОСТ Р 56042-2014. См: https://files.stroyinf.ru/Data2/1/4293771/4293771168.htm.
+// Package qrGost генерирует QR-код платежа по банковским реквизитам по ГОСТ Р 56042-2014.
+// См: https://files.stroyinf.ru/Data2/1/4293771/4293771168.htm
 //
 // QR-код может создаваться в одной из 3 кодировок: Windows1251, UTF8, KOI8R
 //
