@@ -1,8 +1,3 @@
-# qr-gost-56042
-QR-код для оплаты по банковским реквизитам по 
-[ГОСТ Р 56042-2014](https://files.stroyinf.ru/Data2/1/4293771/4293771168.htm).
-
-```go
 package main
 
 import (
@@ -35,8 +30,3 @@ func main() {
 		panic(err)
 	}
 }
-```
-
-© Oleg Fomin 2021
-
-Licence: MIT
