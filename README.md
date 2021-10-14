@@ -2,6 +2,8 @@
 QR-код для оплаты по банковским реквизитам по 
 [ГОСТ Р 56042-2014](https://files.stroyinf.ru/Data2/1/4293771/4293771168.htm).
 
+Документация: [pkg.go.dev/github.com/ofstudio/qr-gost-56042](https://pkg.go.dev/github.com/ofstudio/qr-gost-56042)
+
 ```go
 package main
 
