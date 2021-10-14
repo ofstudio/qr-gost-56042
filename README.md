@@ -5,10 +5,7 @@ QR-код для оплаты по банковским реквизитам п�
 ```go
 package main
 
-import (
-	"fmt"
-	qrGost "github.com/ofstudio/qr-gost-56042"
-)
+import qrGost "github.com/ofstudio/qr-gost-56042"
 
 var p = qrGost.Payment{
 	Name:        `АНО "Танцующий Петербург"`,
@@ -23,15 +20,8 @@ var p = qrGost.Payment{
 }
 
 func main() {
-	var str string
-	var err error
-
-	if str, err = p.String(qrGost.UTF8); err != nil {
-		panic(err)
-	}
-	fmt.Println(str)
-
-	if err = p.PngFile("qr-example.png", qrGost.Windows1251, 512); err != nil {
+	err := p.PngFile("qr-example.png", qrGost.Windows1251, 512) 
+	if err != nil {
 		panic(err)
 	}
 }
