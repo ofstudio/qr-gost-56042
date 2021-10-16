@@ -31,4 +31,4 @@ func main() {
 
 © Oleg Fomin 2021
 
-Licence: MIT
+MIT License
